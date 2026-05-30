@@ -4,10 +4,9 @@ import NumericTooltip from '../common/NumericTooltip'
 interface GainCellProps {
   gain: number
   balance: number
-  label: string
 }
 
-const GainCell = ({ gain, balance, label }: GainCellProps) => {
+const GainCell = ({ gain, balance }: GainCellProps) => {
   const arrow = gain > 0 ? '▲' : gain < 0 ? '▼' : '•'
   const compactGain = new Intl.NumberFormat('en-IN', {
     style: 'currency',
