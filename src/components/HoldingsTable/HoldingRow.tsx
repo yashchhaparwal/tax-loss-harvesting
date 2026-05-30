@@ -83,11 +83,11 @@ const HoldingRow = ({ holding, isSelected, onToggle, isNoiseRow = false }: Holdi
       </td>
 
       <td className="w-[150px] px-2 py-3 align-top sm:px-3">
-        <GainCell gain={holding.stcg.gain} balance={holding.stcg.balance} label="STCG" />
+        <GainCell gain={holding.stcg.gain} balance={holding.stcg.balance} />
       </td>
 
       <td className="w-[130px] px-2 py-3 align-top sm:px-3">
-        <GainCell gain={holding.ltcg.gain} balance={holding.ltcg.balance} label="LTCG" />
+        <GainCell gain={holding.ltcg.gain} balance={holding.ltcg.balance} />
       </td>
 
       <td className="hidden w-[120px] px-3 py-3 align-top text-xs text-slate-100 sm:text-sm md:table-cell">
