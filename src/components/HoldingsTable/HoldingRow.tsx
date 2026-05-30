@@ -3,7 +3,7 @@ import type { Holding } from '../../types'
 import { formatHolding, formatINR } from '../../utils/formatters'
 import NumericTooltip from '../common/NumericTooltip'
 import GainCell from './GainCell'
-
+// test push
 interface HoldingRowProps {
   holding: Holding
   isSelected: boolean
